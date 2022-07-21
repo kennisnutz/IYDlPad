@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IYDL PLATFORM DASHBOARD</title>
+    <!--SMATERIAL CDN-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+    <!--STYLE SHEET-->
+    <link rel="stylesheet" href="./style.css">    
+
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="">
+                    <h2>IY<span class="danger">DL</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#" class="active" >
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>COLLECTIBLES</h3>
+                </a>
+                <a href="#" >
+                    <span class="material-icons-sharp ">
+                        account_balance
+                        </span>
+                    <h3>INVESTMENTS</h3>
+                    <span class="comming_soon"> demo</span>                  
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp"> gavel  </span>                        
+                    <h3>GOVERNANCE</h3>
+                    <span class="comming_soon"> soon</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp"> settings  </span>                        
+                    <h3>Settings</h3>
+                    
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp"> help  </span>                        
+                    <h3>info</h3>
+                    
+                </a>
+            </div>
+        </aside>
+        <!---------------------------END OF MENU SECTION------------------>
+        <main>
+            <h1>DASHBOARD</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="overview">
+                <div class="mint-stats">
+                    <span class="material-icons-sharp">
+                        analytics
+                    </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Minted</h3>
+                            <h1>576 minted</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36">
+                                </circle>
+                            </svg>
+                            <div class="number">
+                                <p>
+                                    39%
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted"> whitelist phase</small>
+                </div>
+                <!------------End of "mint-stats" card-->
+                <div class="expenses">
+                    <span class="material-icons-sharp">
+                        analytics
+                    </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Mint here</h3>
+                            <h1>576 minted</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36">
+                                </circle>
+                            </svg>
+                            <div class="number">
+                                <p>
+                                    39%
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted"> whitelist phase</small>
+                </div>
+                <!------------End of "expenses" card-->
+                </div>
+                <div class="recent-activities">
+                    <h2>Recent Activity</h2>
+                    <table>
+                        <thead>
+                            <th>Transaction ID</th>
+                            <th>Txn Method</th>
+                            <th>Time</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Token Id</th>                        
+
+                        </thead>
+                        <tbody>
+                            
+                            
+                        </tbody>
+                    </table>
+                    <a href="" class="more">More...</a>
+                </div>
+        </main>
+            <!------------End of MAIN section-------------->
+            <div class="right">
+                <div class="top">
+                    <button id="menu-btn">                    
+                        <span class="material-icons-sharp">menu</span>
+                    </button>
+                    <div class="theme-toggler">
+                        <span class="material-icons-sharp active">light_mode</span>
+                        <span class="material-icons-sharp">nightlight</span>
+                    </div>
+                    <div class="profile">
+                        <div class="info">
+                            <p class="time"><b>Hey!!</b>ox2..3e4</p>
+                            <small class="time">You are VVhitelisted</small>
+                        </div>
+                        <div class="profile-photo">
+                            <img src="./images/profile1.png" alt="">
+                        </div>
+                    </div>         
+                    
+                </div>
+
+                <!-------------End of top section------------------>
+                <div class="recent-updates">
+                    <div class="updates">
+                        <div class="update">
+                            <div class="profile-photo">
+                                <img src="./images/profile2.png" alt="">
+                            </div>
+                            <div class="message">
+                                <p><b>mint: </b> token id 143</p>
+                                <small class="time">20 minutes ago</small>
+                            </div>
+                        </div>
+                        <div class="update">
+                            <div class="profile-photo">
+                                <img src="./images/profile3.png" alt="">
+                            </div>
+                            <div class="message">
+                                <p><b>transfer: </b> token id 676</p>
+                                <small class="time">70 minutes ago</small>
+                            </div>
+                        </div>
+                        <div class="update">
+                            <div class="profile-photo">
+                                <img src="./images/profile4.png" alt="">
+                            </div>
+                            <div class="message">
+                                <p><b>mint: </b> token id 332</p>
+                                <small class="time">122 minutes ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------End of Recent Updates------------------>
+                <div class="wallet-analysis">
+                    <h2>Wallet stats</h2>
+                    <div class="item nft">
+                        <div class="icon">
+                            <span class="material-icons-sharp">shopping_cart</span>
+                        </div>
+                        <div class="right">
+                            <div class="info">
+                                <h3>Total IYDL Kongs:</h3>
+                                <small class="time">Number of IYDL kong NFTs in this wallet</small>
+                            </div>
+                            
+                            <h3 class="success"><span class="success">IKN</span> 22</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item token">
+                        <div class="icon">
+                            <span class="material-icons-sharp">shopping_cart</span>
+                        </div>
+                        <div class="right">
+                            <div class="info">
+                                <h3>Total IYDL COINS:</h3>
+                                <small class="time">Number of IYDL tokens in this wallet</small>
+                            </div>
+                            <h3 class="success"><span class="success">IYDL</span> 22,201</h3>
+    
+                        </div>
+                        
+                    </div>
+                    <div class="item investment">
+                        <div class="icon">
+                            <span class="material-icons-sharp">shopping_cart</span>
+                        </div>
+                        <div class="right">
+                            <div class="info">
+                                <h3>Rewards Earned:</h3>
+                                <small class="time">Your yield earnings</small>
+                            </div>
+        
+                            <h3 class="success"><span class="material-icons-sharp">
+                                monetization_on
+                                </span> 1,238.32 </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./transactions.js"></script> 
+        <script src="./index.js"></script>  
+           
+</body>
+</html>
